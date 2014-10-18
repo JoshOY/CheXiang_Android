@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CheXiang">
+        <wb-resource deploy-path="/" source-path="/apps/CheXiang/common"/>
+        <wb-resource deploy-path="/" source-path="/apps/CheXiang/android"/>
+        <property name="context-root" value="CheXiang"/>
+    </wb-module>
+</project-modules>

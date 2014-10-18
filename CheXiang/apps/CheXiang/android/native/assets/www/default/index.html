@@ -1,0 +1,104 @@
+<!DOCTYPE HTML><html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <title>CheXiang</title>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+    		<!--
+    			<link rel="shortcut icon" href="images/favicon.png">
+    			<link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+    		-->
+        <link href="worklight/worklight.css" rel="stylesheet">
+        <link href="jqueryMobile/jquery.mobile-1.4.4.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <script>
+		// Define WL namespace.
+		var WL = WL ? WL : {};
+		/**
+		 * WLClient configuration variables.
+		 * Values are injected by the deployer that packs the gadget.
+		 */
+		 WL.StaticAppProps = {
+   "APP_DISPLAY_NAME": "CheXiang",
+   "APP_ID": "CheXiang",
+   "APP_SERVICES_URL": "\/apps\/services\/",
+   "APP_VERSION": "1.0",
+   "ENVIRONMENT": "android",
+   "LOGIN_DISPLAY_TYPE": "embedded",
+   "WORKLIGHT_NATIVE_VERSION": "1388915884",
+   "WORKLIGHT_PLATFORM_VERSION": "6.2.0.00.20141002-1640",
+   "WORKLIGHT_ROOT_URL": "\/apps\/services\/api\/CheXiang\/android\/"
+};
+</script>
+		<script src="worklight/cordova.js"></script>
+		<script src="worklight/wljq.js"></script>
+		<script src="worklight/worklight.js"></script>
+		<script src="worklight/checksum.js"></script>
+		<script>window.$ = window.jQuery = WLJQ;</script>
+    		<script src="jqueryMobile/jquery.mobile-1.4.4.js"></script>
+    </head>
+    <body style="display: none;">
+        <div data-role="page" data-theme="b" id="homepage">
+    			  <!-- header -->
+            <div data-role="header">
+                <a class="ui-btn-right" data-corners="true" data-icon="info" data-role="button" href="#">关于本app</a>
+                <h1>车享alpha</h1>
+            </div>
+				  <!-- content -->
+            <div data-role="content">
+                <p>
+				    	主页内容&hellip;&hellip;内容&hellip;&hellip;各种内容&hellip;&hellip;<br>
+				    	主页内容&hellip;&hellip;内容&hellip;&hellip;各种内容&hellip;&hellip;<br>
+				    	主页内容&hellip;&hellip;内容&hellip;&hellip;各种内容&hellip;&hellip;<br>
+                </p>
+            </div>
+				  <!-- footer -->
+            <div data-position="fixed" data-role="footer">
+                <div data-position="fixed" data-role="navbar" data-tap-toggle="false">
+                    <ul>
+                        <li>
+                            <a class="ui-btn-active ui-state-persist" data-icon="home" href="#">首页</a>
+                        </li>
+                        <li>
+                            <a data-icon="arrow-r" data-transition="none" href="#">页面二</a>
+                        </li>
+                        <li>
+                            <a data-icon="gear" data-transition="none" href="#settingspage">设置</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" data-theme="b" id="settingspage">
+            <div data-role="header">
+                <a class="ui-btn-right" data-corners="true" data-icon="info" data-role="button" href="#">关于本app</a>
+                <h1>设置</h1>
+            </div>
+            <div data-role="content">
+                <p>
+				    	设置内容&hellip;&hellip;内容&hellip;&hellip;各种内容&hellip;&hellip;<br>
+				    	设置内容&hellip;&hellip;内容&hellip;&hellip;各种内容&hellip;&hellip;<br>
+				    	设置内容&hellip;&hellip;内容&hellip;&hellip;各种内容&hellip;&hellip;<br>
+                </p>
+            </div>
+            <div data-position="fixed" data-role="footer">
+                <div data-position="fixed" data-role="navbar" data-tap-toggle="false">
+                    <ul>
+                        <li>
+                            <a data-icon="home" data-transition="none" href="#homepage">首页</a>
+                        </li>
+                        <li>
+                            <a data-icon="arrow-r" data-transition="none" href="#">页面二</a>
+                        </li>
+                        <li>
+                            <a class="ui-btn-active ui-state-persist" data-icon="gear" href="#">设置</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="js/initOptions.js"></script>
+    		<script src="js/main.js"></script>
+    		<script src="js/messages.js"></script>
+    </body>
+</html>

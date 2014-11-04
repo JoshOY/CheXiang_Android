@@ -35,7 +35,7 @@ module.exports = (grunt)->
             watch:
                 project:
                     files: ['src/**/*']
-                    tasks: ['copy', 'coffee', 'cson', 'stylus', 'autoprefixer', 'uglify']
+                    tasks: ['copy', 'coffee', 'cson', 'stylus', 'autoprefixer']
             stylus:
                 project:
                     files: [{

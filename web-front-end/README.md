@@ -1,6 +1,6 @@
 Development Dependencies
 ========================
-The only thing you need is node.js
+The only thing you need is node.js  
     npm -g intall grunt-cli
 
 Installation

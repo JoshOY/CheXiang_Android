@@ -8,3 +8,6 @@ build/
 # Vim
 *.swp
 
+# sublime
+*.sublime-project
+*.sublime-workspace
